@@ -7,8 +7,8 @@ on:
         description: '指定ID（留空运行全部）'
         required: false
         default: ''
-  schedule:
-    - cron: '0 */2 * * *' 
+  # schedule:
+  #   - cron: '0 */2 * * *' 
 permissions:
   actions: write
   contents: read
